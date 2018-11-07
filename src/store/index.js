@@ -25,7 +25,8 @@ export default new Vuex.Store({
       filter,
       pagination
     }) => {
-      axios.get(`${apiUrl}/contacts?search=name:*${filter.name}*&page=${pagination.page}&size=${pagination.size}`)
+      let nameFilter = filter.name.replace(' ', '_')
+      axios.get(`${apiUrl}/contacts?search=name:*${nameFilter}*&page=${pagination.page}&size=${pagination.size}`)
         .then(response => {
           commit('ADD_CONTACTS', {
             contacts: response.data.content
