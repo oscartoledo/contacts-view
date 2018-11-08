@@ -1,8 +1,21 @@
-# contacts-view
+# Contacts List Frontend
 
-> Kühne + Nagel Test
+This is a test application with Vue.js as Frontend for simple Contacts list
 
-## Build Setup
+## 1. Fronted App
+
+* Javascript
+* Vue.js 2.5
+* Vuex 3.0
+* Axios
+* Vuetify 1.0
+* Webpack 3.7.1
+* Node.js 8.11.3
+* NPM 5.6
+
+I strongly recommend to use [Node Version Manager](https://github.com/creationix/nvm) for building the application
+
+## 2. Build Setup
 
 ```bash
 # install dependencies
@@ -17,5 +30,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
