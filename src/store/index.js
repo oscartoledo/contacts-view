@@ -2,7 +2,7 @@ import Vue from 'vue/dist/vue.esm'
 import Vuex from 'vuex'
 import axios from 'axios'
 
-var apiUrl = 'http://localhost:8080'
+var apiUrl = process.env.BASE_URL
 
 Vue.use(Vuex)
 
