@@ -70,7 +70,7 @@ export default {
       },
       pagination: {
         page: 0,
-        size: 2
+        size: 20
       }
     }
   },
